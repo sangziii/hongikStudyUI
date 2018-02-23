@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #222;
+    text-decoration: underline;
+}
+
+.grouo_colors {
+    margin-top: 20px;
+}
+
+.year_title {
+    margin-bottom: 8px;
+    color: #444;
+    font-size:20px;
+}
+
+.card {
+    width: 150px;
+    margin-bottom:10px;
+    background-color:#fefefe;
+    filter: drop-shadow(rgb(102, 102, 102) 0px 0px 5px);
+}
+
+.color_area {
+    width: 150px;
+    height: 150px;
+
+}
+
+.color_detail div {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.color_detail span {
+    font-size: 11px;
+    color: #333;
+}

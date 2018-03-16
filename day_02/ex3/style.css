@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* css 초기화 */
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+h1, h2, h3, h4 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* 큰 레이아웃 */
+.header {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.link {
+    height: 80px;
+    background-color: #ccc;
+}
+
+.content {
+    height: 600px;
+    background-color: aquamarine;
+}
+
+/* 레이아웃 2단계 */
+
+.area_thumbnail {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.area_detail {
+    float: left;
+    width: 500px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.link_url {
+    font-size: 14px;
+    color: #414141;
+}
+
+.title {
+    margin-top: 15px;
+}
+
+.title a {
+    font-size: 26px;
+    font-weight: bold;
+    color: #414141;
+}
+
+.text_detail {
+    margin-top: 20px;
+}
+
+.group_text {
+    overflow: hidden;
+}
+
+.group_text span {
+    float: left;
+    width: 110px;
+    color: #666;
+}
+
+.group_text em {
+    float: left;
+    margin-left: 15px;
+    color: #666;
+    font-weight: bold;
+}

@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+/* css 초기화 */
+
+body, p, h1, h2, ul, ol, li {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+   font-family: "돋움", Doctum, sans-serif;
+   font-size: 12px;
+   border-color: #ccc;
+}
+
+img {
+    vertical-align: top;
+}
+
+ul, ol {
+   list-style: none;
+}
+
+em, strong {
+	font-weight: normal;
+    font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+}
+
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+
+/* header css */
+.header {
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+    background-color: #3775c8;
+}
+
+.header .header_wrap a {
+    color: #fff;
+}
+
+.header .group_logo a:hover {
+    text-decoration: none;
+}
+
+.header .group_logo {
+	overflow: hidden;
+	float: left;
+}
+
+.header .logo_naver {
+	float: left;
+	margin-top: 6px;
+    margin-right: 10px;
+}
+
+.header .logo_naver .link {
+	display: block;
+	width: 53px;
+	height: 10px;
+	background-image: url(../img/logo_naver.png);
+}
+
+.header .logo_cloud {
+	float: left;
+}
+
+.header .logo_cloud .link {
+	display: block;
+	width: 82px;
+	height: 22px;
+	background-image: url(../img/logo_cloud.png);
+}
+
+.header .group_user_info {
+	overflow: hidden;
+	float: right;
+}
+
+.header .thumb_user {
+	float: left;
+	width: 24px;
+	height: 24px;
+}
+
+.header .thumb_user .img_user {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+
+}
+
+.header .info_user {
+    float: left;
+    height: 24px;
+	margin-left: 5px;
+    line-height: 24px;
+    font-weight: 300;
+	color: #fff;
+}
+
+/* section CSS  */
+.content_wrap .section_file {
+	overflow: hidden;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content_wrap .info_file {
+	float: left;
+    margin-top: 8px;
+}
+
+.content_wrap .info_file .name_repository {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.content_wrap .info_file .status_repository {
+    margin-left: 6px;
+    font-size: 12px;
+	color: #999;
+}
+
+.info_notice {
+	overflow: hidden;
+	float: right;
+}
+.info_notice .text_notice {
+	float: left;
+	margin-top: 7px;
+	font-weight: bold;
+}
+
+.info_notice .button_call {
+	float: left;
+	margin-left: 10px;
+	padding: 5px 8px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	color: #999;
+	font-weight: 200;
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    margin-top: 100px;
+}
+
+.footer {
+    position: fixed;
+	bottom: 0;
+	padding: 10px 0;
+	width: 100%;
+    background-color: #e5e5e5;
+	text-align: center;
+	font-size: 0;
+}
+
+.footer .group_footer_list {
+	font-size: 0;
+}
+
+.footer .group_footer_list .item {
+    display: inline-block;
+}
+
+.footer .group_footer_list .item .link {
+	display: block;
+    color: #777;
+    width: 50px;
+    padding: 0 10px;
+	border-right: 1px solid #aaa;
+	font-size: 14px;
+}
+
+.footer .group_footer_list .item:last-child .link {
+	border-right: none;
+}

@@ -26,6 +26,11 @@ body {
     font-weight: normal;
 }
 
+em {
+    font-style: normal;
+}
+
+
 
 /* box model */
 .wrapper {
@@ -66,7 +71,7 @@ body {
     color: #414141;
 }
 
-.sec_right .detail_text {
+/* .sec_right .detail_text {
     margin-top: 19px
 }
 
@@ -82,22 +87,39 @@ body {
 .sec_right .detail_text .text_content {
     float: left;
     margin-left: 26px;
+} */
+
+.detail_text {
+    margin-top: 20px;
+}
+
+.detail_text .group_text {
+    overflow: hidden;
+}
+
+.detail_text .text_title {
+    float: left;
+    width: 120px;
+}
+
+.detail_text .text_content {
+    float: left;
 }
 
 
 /* content css */
 
-.content .pre_sticker {
+/* .content .pre_sticker {
     display: block;
     text-align: center;
     margin: 30px 0;
     font-size: 12px;
     color: #888888;
-}
+} */
 
 /* content grid layout */
 
-.content .grid:after {
+/* .content .grid:after {
     display: block;
     content: "";
     clear: both;
@@ -107,4 +129,48 @@ body {
     float: left;
     margin-left: 59px;
     margin-bottom: 50px;
+} */
+
+
+.content .link_area {
+    text-align: center;
+
+}
+
+.content .link_area .link {
+    display: block;
+    padding: 35px 0;
+}
+
+/* .grid {
+    overflow: hidden;
+}
+
+.grid .item {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin: 0 0 15px 15px;
+}
+
+.content .link_area {
+    text-align: center;
+}
+
+.content .link_area .link {
+    display: block;
+    padding: 20px 0;
+} */
+
+.grid {
+    /* overflow: hidden; */
+    font-size: 0;
+}
+
+.grid .item {
+    /* float: left; */
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 0 0 20px 20px;
 }

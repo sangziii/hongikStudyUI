@@ -1,0 +1,77 @@
+/* CSS 초기화 */
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+/* BOX MODEL */
+
+body {
+    background-image: url(images/bg.png);
+}
+
+.wrapper {
+    width: 960px;
+    margin: 60px auto;
+    background-color: #fff;
+}
+
+.wrapper .list_beer {
+    overflow: hidden;
+}
+
+.wrapper .list_beer .beer {
+    float: left;
+    width: 320px;
+
+}
+
+.list_beer .beer img {
+    float: left;
+}
+
+.list_beer .beer.middle img {
+    float: right;
+}
+
+
+.wrapper ul li .text {
+    float: left;
+    width: 150px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.text strong {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-align: right;
+    color: #ffce73;
+}
+
+.list_beer .beer.middle strong {
+    text-align: left;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+    color: orange;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text span {
+    color: #bbb;
+    font-size: 11px;
+    font-weight: 300;
+}

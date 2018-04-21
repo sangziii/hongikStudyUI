@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* css 초기화 */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* styling */
+
+body {
+    background-image: url(images/bg.png);
+}
+
+.wrapper {
+    width: 960px;
+    margin: 60px auto;
+    background-color: #fff;
+}
+
+.beer_list {
+    overflow: hidden;
+}
+
+.beer_list .item {
+    overflow: hidden;
+    float: left;
+    width: 320px;
+}
+
+
+.beer_list .item.middle .img_beer {
+    float: right;
+}
+
+.beer_list .item .img_beer {
+    float: left;
+}
+
+.beer_list .item .area_text {
+    float: left;
+    /* 1번 border-box 사용 */
+    /* box-sizing: border-box;
+    width: 170px;
+    padding: 10px; */
+
+    /* 2번 직접 계산 */
+    width: 150px;
+    padding: 10px;
+}
+
+/* 호버 되기 전 */
+.beer_list .item .area_text .index {
+    display: block;
+    font-size: 50px;
+    color: orange;
+    text-align: right;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+/* 호버 된 후 */
+.beer_list .item .area_text .index:hover {
+    color: steelblue;
+    font-size: 60px;
+    opacity: 0.4;
+}
+
+.beer_list .item .area_text .name {
+    font-size: 26px;
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.beer_list .item .area_text .sub_name {
+    font-size: 11px;
+    color: #ddd;
+    font-weight: 300;
+}

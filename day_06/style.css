@@ -1,0 +1,275 @@
+/* CSS 초기화 */
+
+body, h1, h2, h4, p, ul {
+    margin: 0; padding:0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+/* CUSTOM CSS */
+.wrapper {
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+/* header CSS */
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.header .inner {
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0 30px;
+}
+
+.header .inner .logo {
+    float: left;
+    width: 170px;
+    height: 25px;
+    margin-top: 16px;
+    background-image: url(images/logo_connect.png);
+}
+
+.header .inner .menu {
+    overflow: hidden;
+    float: right;
+}
+
+.header .inner .menu li {
+    float: left;
+}
+
+.header .inner ul a {
+    color: #999;
+    font-size: 16px;
+    display: block;
+    height: 50px;
+    line-height: 55px;
+    padding: 0 10px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #222;
+}
+
+.header .inner ul a:hover {
+    color: #fff;
+}
+
+/* cover CSS */
+
+.cover {
+    height: 900px;
+    background-image: url(images/bg_cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cover .inner {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 800px;
+    height: 280px;
+    margin: -140px 0 0 -400px;
+    text-align: center;
+}
+
+.cover .inner h1 {
+    font-size: 100px;
+    color: #ffe7d1;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.cover .inner h1 span {
+    font-size: 0.5em;
+    margin-top: 20px;
+    display: block;
+}
+
+.cover .inner a {
+    display: inline-block;
+    padding: 15px 35px;
+    margin-top: 80px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    letter-spacing: 5px;
+}
+
+.cover .inner a:hover {
+    color: #999;
+    background-color: #fff;
+}
+
+
+/* section1 CSS */
+.section .text_area {
+    float: left;
+    width: 650px
+}
+.section .img_logo {
+    float: right;
+}
+
+.section h2 {
+    color: #329e9e;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.section strong {
+    color: #329e9e;
+}
+
+.section #more {
+    margin-top: 30px;
+    color: #329e9e;
+    display: block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #329e9e;
+    border-radius: 8px;
+    line-height: 45px;
+    background-color: #fff;
+
+}
+
+.section #more:hover {
+    background-color: #329e9e;
+    color: #fff;
+}
+
+
+/* section2 CSS */
+
+.section.course {
+    background-color: #329e9e;
+    color: #fff;
+}
+
+.section.course h2 {
+    color: #fff;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.col5 {
+    width: 20%;
+}
+
+.section .box {
+    padding: 40px 20px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* section3 CSS */
+
+.col.col6 {
+    width: 33.3333%;
+}
+
+.col .item {
+    overflow: hidden;
+    background-color: #efefef;
+    border-radius: 5px;
+    color: #329e9e;
+}
+
+.col .item img {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.col .item h4 {
+    padding: 10px 20px;
+}
+
+.col .item p {
+    padding: 0 20px 20px;
+}
+
+/* footer CSS */
+
+.footer {
+    background-color: #333;
+    color: #329e9e;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: cen;
+}
+
+.footer .wrapper {
+    padding: 5px 30px;
+}
+
+.footer p {
+    float: left;
+    line-height: 50px;
+}
+
+.footer .sns {
+    float: right;
+    margin-top: 10px;
+}
+
+.footer .sns li {
+    float: left;
+}
+
+.footer .sns li a {
+    display: inline-block;
+    width: 30px; height: 30px;
+    color: #fff;
+/*    background-color: #fff;*/
+    margin-left: 5px;
+    text-indent: -9999px;
+    background-image: url(images/icon-sprite.png);
+    background-repeat: no-repeat;
+}
+
+.footer .sns li:nth-child(2) a {
+    background-position: -30px 0;
+}
+
+.footer .sns li:nth-child(3) a {
+    background-position: -60px 0;
+}

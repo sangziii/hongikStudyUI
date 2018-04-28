@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* css초기화 */
+html, body, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+em {
+    font-style: normal;
+}
+
+/* css 스타일 */
+
+.header {
+    overflow: hidden;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.header .inner {
+    overflow: hidden;
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header .logo_connect {
+    float: left;
+
+}
+
+.header .logo_connect .img_logo {
+    display: block;
+    width: 170px;
+    height: 25px;
+    background-image: url(images/logo_connect.png);
+}
+
+.header .logo_connect .img_logo:hover {
+    background-position: 0 -30px;
+}
+
+.header .navigation {
+    overflow: hidden;
+    float: right;
+}
+
+.header .navigation .item {
+    float: left;
+    margin-right: 15px;
+}
+
+.header .navigation .item .link {
+    font-size: 16px;
+    color: #888;
+}
+
+.header .navigation .item .link:hover {
+    color: #fff;
+}
+
+.cover {
+    height: 900px;
+    background-image: url(images/bg_cover.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.cover .title {
+    padding-top: 220px;
+    margin-bottom: 80px;
+    font-size: 100px;
+    color: #ffe7d1;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.cover .title span {
+    font-size: 50px;
+}
+
+.cover .button_course {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    padding: 15px 35px;
+    letter-spacing: 5px;
+}
+
+.cover .button_course:hover {
+    background-color: #fff;
+    color: #888;
+}
+
+.section .area_text {
+    float: left;
+    width: 690px;
+}
+
+.section .area_text .title {
+    color: #329e9e;
+    font-size: 34px;
+}
+
+.section .area_text .description {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.section .area_text .button_more {
+    border: 1px solid #329e9e;
+    border-radius: 6px;
+    padding: 15px 35px;
+    color: #329e9e;
+}
+
+.section .area_text .description em {
+    color: #329e9e;
+    font-weight: bold;
+}
+
+.section .area_img {
+    float: right;
+    width: 220px;
+    height: 220px;
+    background-image: url(images/about2.png);
+}
+
+.section.about {
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.section .inner {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+
+
+
+/*  */
